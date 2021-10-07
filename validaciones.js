@@ -11,13 +11,14 @@ function validar_nombre_usuario(string){
     if (cumple){
         if(in_nombre_usuario.length < 6 || in_nombre_usuario.length >30){
             alert("Digite su nombre nuevamente")
+            return false;
         }
         else{
-            return true
+            return true;
         }
     }
     else{
-        return false
+        return false;
     }
     
 
@@ -34,25 +35,28 @@ function validar_contrasena(string){
     if (cumple){
         if(in_contrasena.length < 6){
             alert("Digite su contraseña nuevamente")
+            return false;
         }
         else{
-            return true
+            return true;
         }
     }
     else{
-        return false
+        return false;
     }    
 
+    
 }
 
 function confirmar_contrasena(stringA, StringB){
-    //implementación
+    //implementación validar stringA FUNCION VALIDAR, string B llamarla 
 }
 
 function btnvalidar_informacion(stringA, StringB, stringC){
     //implementación
     validar_nombre_usuario();
     validar_contrasena();
+    confirmar_contrasena();
 
 
 }
