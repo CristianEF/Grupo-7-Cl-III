@@ -65,7 +65,7 @@ function confirmar_contrasena(stringA, StringB){
 
     if (cumple){
         if(in_confirmar_contrasena ==" " || in_contrasena === in_confirmar_contrasena){
-            alert("Contraseña validada, puedes ingresar🤑🤑")
+            alert("Contraseña validada, puedes ingresar felicitaciones🤑🤑")
             return true;
         }
         else{
